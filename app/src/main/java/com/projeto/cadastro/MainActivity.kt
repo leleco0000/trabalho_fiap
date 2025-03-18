@@ -224,7 +224,6 @@ fun Registros() {
                 textStyle = TextStyle(fontSize = 14.sp),
                 singleLine = true,
                 visualTransformation = if(senhaVisivel) VisualTransformation.None else PasswordVisualTransformation(),
-                //trailingIcon = {keyboardOptions = keyboardOptions(keyboardType = KeyboardType.Password),)
                 shape = RoundedCornerShape(8.dp)
 
 
